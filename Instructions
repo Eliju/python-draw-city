@@ -1,0 +1,7 @@
+To build the exe:
+Install pyinstaller in PyCharm Terminal:
+pip install pyinstaller
+Run the following command:
+pyinstaller --hidden-import jproperties --onefile --clean --name DrawCity main.py
+
+Make sure configuration files are also in the folder where you run the DrawCity.exe
